@@ -95,6 +95,9 @@ dataSource:
     username: sa
     password: ''
 
+# Show that the plugin can still be disabled and have the test fail
+javamelody.disabled: true
+
 environments:
     development:
         dataSource:
